@@ -1,0 +1,59 @@
+/* You can add comments like this to document your CSS source code. */
+
+/* One line at a time, */
+
+/*
+    Or multiple lines in the same comment section.
+    Comments like these are useful to explain what your CSS code is doing.
+*/
+
+body {
+  /* Let's use a different font for the whole body tag and its children. */
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  /* These properties are for all h1 tags. */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  /* These properties are for all p tags. */
+  font-size: 20px;
+  font-weight: normal;
+
+  /* Let's set margins for p tags with the proprties long form. */
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+
+/* This targets a specific element in the page. */
+#product-name {
+  margin: 0 10px 2em 10px; /* top right bottom left */
+}
+
+/* This class can be used on any tag to make it look like an error message. */
+.error {
+  background-color: #CE1721;
+  border: solid 2px #7D3636;
+  color: white;
+  padding: 0.5em 1em; /* top/bottom left/right */
+}
+
+/* This class can be used on any tag to make it look like a success message. */
+.success {
+  background-color: #1FAB3E;
+  border: solid 2px #1B9547;
+}
+
+/* These properties are common to both classes.
+   This way, there is no need to type them twice! */
+.error, .success {
+  color: white;
+  padding: 0.5em 1em; /* top and bottom, then left and right */
+}
