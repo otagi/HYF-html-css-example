@@ -1,2 +1,3 @@
-# HYF-html-css-example
-Example files for HackYourFuture Week 1 - HTML &amp; CSS
+# HackYourFuture Module 1: HTML, CSS, and CLI
+
+You will find example files from the lectures, week by week.
