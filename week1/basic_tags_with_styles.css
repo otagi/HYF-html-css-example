@@ -25,7 +25,7 @@ p {
   font-size: 20px;
   font-weight: normal;
 
-  /* Let's set margins for p tags with the proprties long form. */
+  /* Let's set margins for p tags with the properties long form. */
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 1em;
@@ -55,5 +55,5 @@ p {
    This way, there is no need to type them twice! */
 .error, .success {
   color: white;
-  padding: 0.5em 1em; /* top and bottom, then left and right */
+  padding: 0.5em 1em; /* top/bottom left/right */
 }
