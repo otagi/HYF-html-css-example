@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Semantic elements</title>
+    <style type="text/css" media="screen">
+      body > * { padding: 1rem; }
+      body > header { background: #ccc; }
+      body > main { background: #eee; }
+      body > aside { border: dashed 2px #ccc; }
+      body > footer { background: #888; color: #fff; }
+      body > header > nav > ul { display: flex; list-style: none; padding: 0; }
+      body > header > nav > ul > li { padding: 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Semantic elements</h1>
+      <section>
+        <h2>First section: Blog posts</h2>
+        <article>
+          <header>
+            <h3>Blog post 1</h3>
+            <time datetime="2019-03-24">24 March</time>
+          </header>
+          <p>Lorem ipsum dolor sit amet, <q>consectetur adipisicing elit</q>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Ut enim ad minim veniam, <mark>quis nostrud exercitation</mark> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <blockquote>
+            Lorem ipsum dolor sit amet <abbr title="HyperText Markup Language">HTML</abbr>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          </blockquote>
+        </article>
+        <article>
+          <header>
+            <h3>Blog post 2</h3>
+          </header>
+          <p>Exciting financial forecast description.</p>
+          <figure>
+            <img src="income-chart.png" alt="Income chart" width="300">
+            <figcaption>The company’s income has grown 300% over the last 5 years.</figcaption>
+          </figure>
+        </article>
+      </section>
+    </main>
+    <aside>
+      <h2>My friend’s blogs</h2>
+      <ul>
+        <li><a href="https://blog.tom.com">Tom’s blog</a></li>
+        <li><a href="https://blog.jerry.com">Jerry’s blog</a></li>
+      </ul>
+    </aside>
+    <footer>
+      <p>Copyright © 2019 HYF</p>
+      <p>Contact the author of this page:</p>
+      <address>
+        <a href="mailto:tiago@hyf.org">tiago@hyf.org</a><br/>
+        <a href="tel:+311-555-2368">+311-555-2368</a><br/>
+      </address>
+    </footer>
+  </body>
+</html>
