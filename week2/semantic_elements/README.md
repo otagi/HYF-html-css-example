@@ -13,3 +13,5 @@ Whenever possible, also use semantic names for your CSS classes. For example, in
 A simple rule to find good semantic class names is to ask yourself "what does this element represent?", instead of "how does this element look like?".
 
 Learn about these new tags on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
+Look at the [example file](http://htmlpreview.github.io/?https://github.com/otagi/HYF-module-1/blob/master/week2/semantic_elements/example.html) and its [source code](https://github.com/otagi/HYF-module-1/blob/master/week2/semantic_elements/example.html).
